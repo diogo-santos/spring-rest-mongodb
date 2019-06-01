@@ -24,3 +24,5 @@ Now that the app is running, visit http://localhost:8080/people in order to see 
 Spring Data Repository interface allow you to perform various operations related to the Person Object. It gets these operations by extending MongoRepository, which in turn extends the PagingAndSortingRepository interface defined in Spring Data Commons.
 
 At runtime, Spring Data REST will create an implementation of this interface automatically.
+
+![Diagram](https://github.com/diogo-santos/spring-rest-mongodb/blob/master/api-rest.png)
