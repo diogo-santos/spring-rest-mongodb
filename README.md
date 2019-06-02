@@ -31,6 +31,7 @@ At runtime, Spring Data REST will create an implementation of this interface aut
 It’s a good approach when we want to test if our application behaves accordingly when the code is working directly with the persistence layer
 
 Unfortunately, using an embedded server cannot be considered as “full integration testing”; hence, if we want to run communication tests in the environment as close to the production as possible, a better solution is to use an environment container such as Docker
- 
 
-![Print](https://github.com/diogo-santos/spring-rest-mongodb/blob/master/spring-rest-mongodb.png)
+## Design REST API
+
+![Print](https://github.com/diogo-santos/spring-rest-mongodb/blob/master/api-rest-mongodb.png)
