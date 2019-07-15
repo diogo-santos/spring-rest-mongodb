@@ -4,10 +4,8 @@
 ## What was build
 Spring application for creating and retrieving entity stored in a MongoDB database using Spring Data REST
 
-Also, it is leveraging Flapdoodle’s embedded MongoDB to run integration tests smoothly
-
 ## What you'll need
-MongoDb
+MongoDB
 
 Java 1.8
 
@@ -29,7 +27,9 @@ Spring Data Repository interface allow you to perform various operations related
 
 At runtime, Spring Data REST will create an implementation of this interface automatically
 
-## Embedded Testing
-It’s a good approach when we want to test if our application behaves accordingly when the code is working directly with the persistence layer
+## Integration Test
+If we want to run communication tests in the environment as close to the production as possible, a better solution is to use an environment container such as Docker.
 
-Unfortunately, using an embedded server cannot be considered as “full integration testing”; hence, if we want to run communication tests in the environment as close to the production as possible, a better solution is to use an environment container such as Docker
+[Install Docker](https://www.linkedin.com/pulse/install-docker-ubuntu-1804-diogo-santos/)
+
+[Integration tests using Docker](https://www.linkedin.com/pulse/integration-tests-using-docker-diogo-santos)
