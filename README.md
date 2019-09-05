@@ -1,7 +1,6 @@
 # Spring Boot with MongoDB
 ![Print](https://github.com/diogo-santos/spring-rest-mongodb/blob/master/api-rest-mongodb.png)
 
-## What was build
 Spring application for creating and retrieving entity stored in a MongoDB database using Spring Data REST
 
 ## What you'll need
