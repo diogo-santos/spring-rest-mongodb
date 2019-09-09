@@ -10,6 +10,9 @@ Java 1.8
 
 Maven 3.0+
 
+[Docker](https://www.linkedin.com/pulse/install-docker-ubuntu-1804-diogo-santos/)
+
+
 ## Instructions
 Import the project from GitHub
 
@@ -27,8 +30,10 @@ Spring Data Repository interface allow you to perform various operations related
 At runtime, Spring Data REST will create an implementation of this interface automatically
 
 ## Integration Test
-If we want to run communication tests in the environment as close to the production as possible, a better solution is to use an environment container such as Docker.
-
-[Install Docker](https://www.linkedin.com/pulse/install-docker-ubuntu-1804-diogo-santos/)
+Run test.sh script
+```
+./test.sh
+```
+If we want to run communication tests in the environment as close to the production as possible, a better solution is to use an environment container such as Docker. You can learn more by checking out this article: 
 
 [Integration tests using Docker](https://www.linkedin.com/pulse/integration-tests-using-docker-diogo-santos)
